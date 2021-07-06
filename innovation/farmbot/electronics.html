@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="google-site-verification" content="G4gClB66Jr2h0XiecdD1OyTE0HCHwwS707_GIuEMCfU" />
+    <meta name="description" content="The DRISHTI-Rover is a student initiative at SVNIT to build a prototype of Mars rover capable of extra-terrestrial robotics.">
+    <meta name="keywords" content="Drishti, Rover,WE,ME,technical, DRISHTI, ROVER">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+        Electronics
+    </title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../favicon_io/site.webmanifest">
+    <link href="../css/all.min.css" rel="stylesheet">
+    <link href="../css/fontawesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../footer.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="mechanical.css">
+</head>
+<body>
+
+<!--------------------------------------------------------------------------->
+
+<div class="main-nav">
+<nav class="navbar navbar-expand-md navbar-light"style="background-color: rgb(255,255,255);">
+    <a href ="http://svnit.ac.in/" class="navbar-brand">
+        <img class="nit_photo"src="../images/svnit.png">
+    </a>
+    <div class="navbar-brand v2"></div>
+    <a href ="https://drishti-svnit.github.io/drishti/" class="navbar-brand">
+        <img src="../images/drishti_3.png" class="svnit_photo" >
+    </a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"style="font-weight: bold; margin-right: 20px;"><a href="../index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"style="font-weight: bold; margin-right: 20px;"><a href="../gallery.html" class="nav-link">Gallery</a></li>
+            <li class="nav-item dropdown" style="font-weight: bold; margin-right: 20px;">
+                <a href="#" class="nav-link dropdown-toogle" data-toggle="dropdown">Subsystems</a>
+                <div class="dropdown-menu"style="background-color:	rgb(220,220,220);">
+                    <a href="mechanical.html" class="dropdown-item">
+                        MECHANICAL
+                    </a>
+                </div>
+            </li>
+            <li class="nav-item dropdown "style="font-weight: bold;  margin-right: 40px;">
+                <a href="#" class="nav-link dropdown-toogle" data-toggle="dropdown">Projects</a>
+                <div class="dropdown-menu"style="background-color:	rgb(220,220,220);">
+                    <a href="farmbot.html" class="dropdown-item">
+                        Farmbot
+                    </a>
+                    <a href="reforester.html" class="dropdown-item">
+                        Reforester
+                    </a>
+                </div>
+            </li>
+            <!-- <li class="nav-item"style="font-weight: bold; margin-right: 40px;"><a href="#down" class="nav-link">Contact</a></li> -->
+        </ul>
+    </div>
+</nav>
+</div>
+
+<!--------------------------------------------------------------------------->
+
+
+<div class="title">
+    <h1>
+        ELECTRONICS
+    </h1>
+    <h1>
+        SUBSYSTEMS
+    </h1>
+</div>
+
+
+<div class="topics">
+    <!--<div class="cards">
+        <div class="images">
+            <img src="../images/rbpilogo.png" alt="Raspberry-Pi">
+        </div>
+        <a href="#pi">
+            Raspberry-Pi
+        </a>
+    </div> -->
+    <div class="cards">
+        <div class="images">
+            <img src="../images/roslogo.png" alt="ROS">
+        </div>
+        <a href="#ros">
+            Robot Operating System
+        </a>
+    </div>
+    <div class="cards">
+        <div class="images">
+            <img src="../images/gazebologo.png" alt="Gazebo">
+        </div>
+        <a href="#Gazebo">
+            Gazebo
+        </a>
+    </div>
+        <div class="cards">
+        <div class="images">
+            <img src="../images/locationlogo.png" alt="Mapviz">
+        </div>
+        <br>
+        <a href="#Mapviz">
+            Mapviz
+        </a>
+    </div> 
+    <div class="cards">
+        <div class="images">
+            <img src="../images/logopid.png" alt="PID">
+        </div>
+        <br>
+        <a href="#PID">
+            PID
+        </a>
+    </div> 
+    <div class="cards">
+        <div class="images">
+            <img src="../images/DLlogo.png" alt="Deep Learning">
+        </div>
+        <br>
+        <a href="#DL">
+            Deep Learning
+        </a>
+    </div>
+</div>
+
+<br><hr><br>
+
+    <div class="sub-text-full">
+        <h1 style="text-align: center;">
+            AIM
+        </h1>
+        <p>
+            Our main aim was to implement the following modules : PID Algorithm , Sensor interfacing and thus this year we introduced ROS to aid in proper control and simulation of farm bot.
+            <br>
+            We further aim to apply localization on farm bot and use Extended Kalman filters to aid our process.
+            <br>
+        </p>
+    </div>
+
+<!--<div class="subs" id="pi">
+    <div class="sub-text-full">
+        <h1>
+            RASPBERRY-PI
+        </h1>
+        <p>
+            It runs on Ubuntu 18.04LTS instead of Inbuilt RaspbianOS.
+            <br>
+            And also has ROS installed in it to handles communication between the user and the bot.
+        </p>
+    </div> 
+</div> -->
+
+<br><hr><br>
+
+<div class="subs" id="ros">
+    <div class="sub-text-full">
+        <h1 style="text-align: center;">
+            ROS (ROBOT OPERATING SYSTEM)
+        </h1>
+        <p>
+            It is a package available for Linux-OS and is mainly made to control robots.
+            <br>
+            It has been used to take data from the user(generally using a controller).
+        </p>
+    </div>
+</div>
+
+<br><hr><br>
+
+<div class="subs" id="Gazebo">
+    <div class="sub-text-full">
+        <h1 style="text-align: center;">
+            Gazebo
+        </h1>
+        <p>
+            Gazebo is a ROS Simulation software used to perform simulation of the robot in real time environment.
+            <br>
+            In farmbot it is used to design the controlling part of the robot.
+
+        </p>
+    </div>
+</div>
+
+<br><hr><br>
+
+<div class="subs" id="Gazebo">
+    <div class="sub-text-full">
+        <h1 style="text-align: center;">
+            Mapviz
+        </h1>
+        <p>
+            It is a tool in ROS used to visualize the model containing a map in background.
+            <br>
+            We used it to visualize the location of robot. 
+
+        </p>
+    </div>
+</div>
+
+<div class="subs" id="PID">
+    <div class="sub-text-full">
+        <h1 style="text-align: center;">
+            PID Control Algorithm
+        </h1>
+        <p>
+            Proportional Integral Derivative controller. 
+            <br>
+            The control loop feedback device is used to regulate all the process variables..  
+            <br>
+            To reduce the error in the desired velocity and position of farmbot we used PID control algorithm.
+        </p>
+    </div>
+</div>
+
+<br><hr><br>
+
+<div class="subs" id="DL">
+    <div class="sub-text-full">
+        <h1 style="text-align: center;">
+            Deep Learning.
+        </h1>
+        <p>
+            weed recognition is another important module of farmbot.
+            <br>
+            To recognize weeds from the crop fields, deep learning techniques are used.
+            <br>
+            Deep learning models have a powerful learning ability that integrets the feature extraction and classification processit allows machines to identify and extract features from the images.
+            
+        </p>
+        <h2>
+            Obtained Results
+        </h2>
+        <div class="images">
+            <img src="../images/DLResultsf2.jpeg" style="height: 260px; width: 260px;">
+            <img src="../images/DLResultf1.jpeg" style="height: 260px; width: 260px;">
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--------------------------------------------------------------------------->
+
+
+    <!-- <div class="drishti-map">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.6327874201347!2d72.78366581502787!3d21.16700718592359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04db12023ce37%3A0xb167851a625ee547!2sDRISHTI%20-%20A%20REVOLUTIONARY%20CONCEPT!5e0!3m2!1sen!2sin!4v1618395974891!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+
+        </iframe>
+
+    </div>
+
+    <div class="new-footer">
+        <div class="drishti-copyright">
+            <span>
+                © Drishti-SVNIT. All Rights Reserved
+            </span>
+        </div>
+
+        <div class="drishti-home">
+            <a href = "https://drishti-svnit.github.io/drishti/" target="_blank">
+                <i class="fas fa-home"></i>
+            </a>
+        </div>
+
+        <div class="drishti-social">
+            <div class = "contact-icons">
+                <a class="social-button facebook" href="https://www.facebook.com/drishti.nitsurat/" target="_blank">
+                    <i class="fab fa-facebook-square " style="vertical-align:0;"></i>
+                </a>
+                <a class="social-button insta" href="https://www.instagram.com/drishti.svnit/" target="_blank">
+                    <i class="fab fa-instagram " style="vertical-align:0;"></i>
+                </a>
+                <a class="social-button linkedin" href="https://www.linkedin.com/company/drishti-nitsurat/" target="_blank">
+                    <i class="fab fa-linkedin " style="vertical-align:-0.125rem;margin-bottom:0.125rem;"></i>
+                </a>
+                <a class="social-button github" href="https://www.github.com/DRISHTI-SVNIT" target="_blank">
+                    <i class="fab fa-github " style="vertical-align:0;margin-bottom:0.125rem;"></i>
+                </a>
+                <a class="social-button mail" href="mailto:drishti.nitsurat@gmail.com" target="_blank">
+                    <i class="fas fa-envelope-open " style="vertical-align:0;margin-bottom:0.125rem;"></i>
+                </a>
+                <a class="social-button youtube" href="https://www.youtube.com/channel/UClAi8qJnq9VckAPOMzcPpLQ" target="_blank">
+                    <i class="fab fa-youtube " style="vertical-align:-0.125rem;margin-bottom:0.125rem;"></i>
+                </a>
+            </div>
+        </div>
+    </div> -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
